@@ -1,1 +1,7 @@
-
+body {
+  margin: 0 auto;
+  width: 670px;
+  background-image: url(blankcomputer.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
