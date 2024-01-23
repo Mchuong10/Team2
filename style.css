@@ -1,7 +1,12 @@
 body {
   margin: 0 auto;
   width: 670px;
-  background-image: url(blankcomputer.jpeg);
+  background-image: url(blankcomputer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+p {
+  color: #f3f3f3;
+  margin-bottom: 0%;
+  background-color: #f4f4f7;
 }
