@@ -9,8 +9,8 @@ const foodArray = [];
 
 // Function to add food to the array
 function addFood() {
-    const foodName = document.getElementById("foodName").value;
-    const calories = document.getElementById("calories").value;
+    let foodName = document.getElementById("foodName").value;
+    let calories = document.getElementById("calories").value;
 
     if (foodName && calories) {
         const newFood = new Food(foodName, calories);
@@ -20,9 +20,13 @@ function addFood() {
         console.log("Updated Food List:", foodArray);
 
         // Update display on the screen
-        //displayFoodList();
         displayTotalCalories();
+
+        
     }
+    // Clear input fields
+    document.getElementById("foodName").value = "";
+    document.getElementById("calories").value = "";
 }
 
 
