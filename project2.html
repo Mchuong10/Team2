@@ -6,7 +6,19 @@
       <link rel="stylesheet" type="text/css" href="style.css">
 </head>
   <div class="center">
-<p> This is where our code goes!!</p>
+    <h1>Calorie Tracker</h1>
+
+    <label for="foodName">Food Name:</label>
+    <input type="text" id="foodName">
+
+    <label for="calories">Calories:</label>
+    <input type="number" id="calories">
+    <br>
+    <button onclick="addFood()">Add Food</button>
+
+    <div id="calorieList"></div>
+    <div id="totalCalories">Total Calories: 0</div>
+
   </div>
 
     <script type="text/javascript" src="index.js"></script>
